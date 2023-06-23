@@ -11,7 +11,7 @@ local Credit = Instance.new("TextLabel")
 local Plr = Players.LocalPlayer
 local Clipon = false
 
-Noclip.Name = "Noclip"
+Noclip.Name = "Xuyên Tường"
 Noclip.Parent = game.CoreGui
 
 BG.Name = "BG"
@@ -52,7 +52,7 @@ Toggle.TextSize = 25
 Toggle.TextStrokeColor3 = Color3.new(0.180392, 0, 0.431373)
 Toggle.TextStrokeTransparency = 0
 
-StatusPF.Name = "StatusPF"
+StatusPF.Name = "Trạng Thái"
 StatusPF.Parent = BG
 StatusPF.BackgroundColor3 = Color3.new(1, 1, 1)
 StatusPF.BackgroundTransparency = 1
@@ -60,7 +60,7 @@ StatusPF.Position = UDim2.new(0.314285725, 0, 0.708661377, 0)
 StatusPF.Size = UDim2.new(0, 56, 0, 20)
 StatusPF.Font = Enum.Font.Highway
 StatusPF.FontSize = Enum.FontSize.Size24
-StatusPF.Text = "Status:"
+StatusPF.Text = "Trạng Thái:"
 StatusPF.TextColor3 = Color3.new(1, 1, 1)
 StatusPF.TextSize = 20
 StatusPF.TextStrokeColor3 = Color3.new(0.333333, 0.333333, 0.333333)
@@ -75,7 +75,7 @@ Status.Position = UDim2.new(0.580952346, 0, 0.708661377, 0)
 Status.Size = UDim2.new(0, 56, 0, 20)
 Status.Font = Enum.Font.Highway
 Status.FontSize = Enum.FontSize.Size14
-Status.Text = "off"
+Status.Text = "Tắt"
 Status.TextColor3 = Color3.new(0.666667, 0, 0)
 Status.TextScaled = true
 Status.TextSize = 14
