@@ -1,4 +1,4 @@
-local Workspace = game:GetService("Workspace")
+Xlocal Workspace = game:GetService("Workspace")
 local CoreGui = game:GetService("CoreGui")
 local Players = game:GetService("Players")
 local Noclip = Instance.new("ScreenGui")
